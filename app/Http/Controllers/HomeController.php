@@ -16,6 +16,8 @@ class HomeController extends Controller
     public function index()
     {
         /* TODO Récupérer tout les utilisateurs, et renvoyer la view "home.blade.php avec les utilisateurs" */
+    
+        return view('home', compact('users'));
     }
 }
 
